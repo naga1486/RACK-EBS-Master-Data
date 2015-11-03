@@ -1,0 +1,1 @@
+﻿Call RunAction("Action1", oneIteration, Parameter("CurrentScenario"), Parameter("CurrentTestCase"), Parameter("TestCaseDescription"), Parameter("TimeStamp"), Parameter("IterationMode"), Parameter("StartIteration"), Parameter("EndIteration"))

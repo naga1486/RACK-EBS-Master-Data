@@ -1,0 +1,16 @@
+No Screen Saver!
+Version 2.0
+Freeware
+
+ Version history
+ ---------------
+
+ 26.01.2001 v2.0
+	- Complete new way of disabling screensaver - now it WILL
+ disable it but not by turn it off as it does in previous version
+ (crappy way in comparison with this).
+
+
+ 17.12.1999 v1.0
+	- First release
+
