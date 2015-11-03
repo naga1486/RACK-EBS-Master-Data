@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\admin\\Documents\\GitHub\\RACK-EBS-Master-Data\\Results\\Run_11-3-2015_5-20-13 PM\\QTP Results\\TC2',namePairs:[]}]};
