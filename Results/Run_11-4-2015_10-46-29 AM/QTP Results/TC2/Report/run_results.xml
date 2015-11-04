@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>Start</Name>
+    <Description>Iteration1 started</Description>
+    <StartTime>2015-11-04 10:49:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e6325c7031774cc49156af5711b926db</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Start Component</Name>
+    <Description>Invoking Business component: Login</Description>
+    <StartTime>2015-11-04 10:49:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e6325c7031774cc49156af5711b926db</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Run "iexplore",3</Name>
+    <Description>Run "iexplore",3</Description>
+    <StartTime>2015-11-04 10:49:18</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>88e3c9843d0f4d0b8ea2b34ef66cc5a6</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SystemUtil</Name>
+    <Description>SystemUtil</Description>
+    <StartTime>2015-11-04 10:49:18</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>88e3c9843d0f4d0b8ea2b34ef66cc5a6</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>usernameField.Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2015-11-04 10:49:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\admin\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[usernameField]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[usernameField]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c72f5e6843e94875acb721b9793f1cbd</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Page</Description>
+    <StartTime>2015-11-04 10:49:18</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\admin\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e4bc3bd7b0ea4ac2adedf23f9d2ff1af</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Browser</Description>
+    <StartTime>2015-11-04 10:49:18</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\admin\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>cf5cbaf2e4554bbba9f6966346cfcce4</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2015-11-04 10:49:16</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="CurrentScenario" value="AR" type="System.String" />
+      <Parameter name="CurrentTestCase" value="TC2" type="System.String" />
+      <Parameter name="TestCaseDescription" value="Create Invoice" type="System.String" />
+      <Parameter name="TimeStamp" value="Run_11-4-2015_10-46-29 AM" type="System.String" />
+      <Parameter name="IterationMode" value="oneIteration" type="System.String" />
+      <Parameter name="StartIteration" value="" type="" />
+      <Parameter name="EndIteration" value="" type="" />
+    </InputParameters>
+    <Extension>
+      <IconKey>a1cc963a2bf34f0ba89eef57e8ee6cbf</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Driver Script</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.50</ToolVersion>
+    <Description />
+    <StartTime>2015-11-04 10:49:14</StartTime>
+    <Duration>7</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="CurrentScenario" value="AR" type="System.String" />
+      <Parameter name="CurrentTestCase" value="TC2" type="System.String" />
+      <Parameter name="TestCaseDescription" value="Create Invoice" type="System.String" />
+      <Parameter name="TimeStamp" value="Run_11-4-2015_10-46-29 AM" type="System.String" />
+      <Parameter name="IterationMode" value="oneIteration" type="System.String" />
+      <Parameter name="StartIteration" value="" type="" />
+      <Parameter name="EndIteration" value="" type="" />
+    </InputParameters>
+    <Extension>
+      <IconKey>f688b355588947bda2b8c980995d36f5</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>admin</User>
+      <CpuInfo>Pentium(R) Dual-Core  CPU      E5400  @ 2.70GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>4096</TotalMemory>
+      <HostName>CNVNPC</HostName>
+      <OSInfo>Windows 7</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>TC2</ResultName>
+    <RunStartTime>2015-11-04 10:49:14</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.50</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
