@@ -1,0 +1,881 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>Start</Name>
+    <Description>Iteration1 started</Description>
+    <StartTime>2015-11-04 11:51:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Start Component</Name>
+    <Description>Invoking Business component: Login</Description>
+    <StartTime>2015-11-04 11:51:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore",3</Name>
+    <Description>SystemUtil.Run "iexplore",3</Description>
+    <StartTime>2015-11-04 11:51:07</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>33daf45fbb3347d3839362bc883c36ea</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>usernameField.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[usernameField]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[usernameField]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>daf5c9c852194c16b008d9b5b5eeae5c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>usernameField.Set</Name>
+    <Description>"naga1486"</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[usernameField]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["naga1486"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[usernameField]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>daf5c9c852194c16b008d9b5b5eeae5c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Page</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>912fd1c922704b8aa51e6fae5d4c3d65</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Browser</Description>
+    <StartTime>2015-11-04 11:51:17</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>add9d31799814519b059528ef7caf902</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login </Name>
+    <Description>User name naga1486 is entered </Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>passwordField.SetSecure</Name>
+    <Description>"racker5"</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[passwordField]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["racker5"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[passwordField]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>daf5c9c852194c16b008d9b5b5eeae5c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Login.Click</Name>
+    <Description />
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Login]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>04c3b6b74de54734b1dc9c596291e03c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Page</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>912fd1c922704b8aa51e6fae5d4c3d65</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Browser</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>add9d31799814519b059528ef7caf902</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login </Name>
+    <Description>Login button is clicked</Description>
+    <StartTime>2015-11-04 11:51:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Logout.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Oracle Applications Home_2]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Logout]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Logout]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>39388825cc084ed3a8f3ef506c16e39a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Oracle Applications Home_2</Name>
+    <Description>Page</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Oracle Applications Home_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>912fd1c922704b8aa51e6fae5d4c3d65</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>Browser</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>add9d31799814519b059528ef7caf902</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login </Name>
+    <Description>Successfully logined</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login </Name>
+    <Description>Successfully logined</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>End Component</Name>
+    <Description>Exiting Business component: Login</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Start Component</Name>
+    <Description>Invoking Business component: Create_Custom_ACH_Process</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ RS US AR Billing Payment User ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ RS US AR Billing Payment User ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>39388825cc084ed3a8f3ef506c16e39a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ RS US AR Billing Payment User ].Click</Name>
+    <Description />
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ RS US AR Billing Payment User ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>39388825cc084ed3a8f3ef506c16e39a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Link Clicked</Name>
+    <Description>The link ' RS US AR Billing Payment User' is available and clicked</Description>
+    <StartTime>2015-11-04 11:51:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Batches ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2015-11-04 11:51:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Batches ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>39388825cc084ed3a8f3ef506c16e39a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Batches ].Click</Name>
+    <Description />
+    <StartTime>2015-11-04 11:51:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Oracle Applications Home Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Batches ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>39388825cc084ed3a8f3ef506c16e39a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Link Clicked</Name>
+    <Description>The link ' Batches' is available and clicked</Description>
+    <StartTime>2015-11-04 11:51:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Receipt Batches.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2015-11-04 11:52:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Receipt Batches]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Receipt Batches]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3fc30e7704648a8bf6e1a02bc1a86</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Batch Type.Select</Name>
+    <Description>"Automatic"</Description>
+    <StartTime>2015-11-04 11:52:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Receipt Batches]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleList</Type>
+            <Name><![CDATA[Batch Type]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Automatic"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>08b86ebaeb9c4f7f9793ad883697f9ee</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Receipt Class.Enter</Name>
+    <Description>"ACH REVISED", True</Description>
+    <StartTime>2015-11-04 11:52:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Receipt Batches]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Receipt Class]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["ACH REVISED", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[prompt]]></Name>
+            <Value><![CDATA[Receipt Class]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>daf5c9c852194c16b008d9b5b5eeae5c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Create.Click</Name>
+    <Description />
+    <StartTime>2015-11-04 11:52:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Receipt Batches]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[Create]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>04c3b6b74de54734b1dc9c596291e03c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Receipt Batches</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2015-11-04 11:52:35</StartTime>
+    <Duration>13</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\sravanthi\Documents\GitHub\RACK-EBS-Master-Data\Business Components\Libraries\Object Repository\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Receipt Batches]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Receipt Batches]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3fc30e7704648a8bf6e1a02bc1a86</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Error</Name>
+    <Description>The "Create Automatic Receipts" OracleFormWindow object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</Description>
+    <StartTime>2015-11-04 11:52:48</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>End Component</Name>
+    <Description>Exiting Business component: Create_Custom_ACH_Process</Description>
+    <StartTime>2015-11-04 11:52:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>End</Name>
+    <Description>Iteration1 completed</Description>
+    <StartTime>2015-11-04 11:52:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>61116c2404da4e739e50432c8d9126e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2015-11-04 11:51:05</StartTime>
+    <Duration>108</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="CurrentScenario" value="Portal" type="System.String" />
+      <Parameter name="CurrentTestCase" value="TC8" type="System.String" />
+      <Parameter name="TestCaseDescription" value="Create Custom ACH Process" type="System.String" />
+      <Parameter name="TimeStamp" value="Run_11-4-2015_11-50-37 AM" type="System.String" />
+      <Parameter name="IterationMode" value="oneIteration" type="System.String" />
+      <Parameter name="StartIteration" value="" type="" />
+      <Parameter name="EndIteration" value="" type="" />
+    </InputParameters>
+    <Extension>
+      <IconKey>db00ef35b677455a9b3630ee22d68522</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Driver Script</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2015-11-04 11:51:03</StartTime>
+    <Duration>110</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="CurrentScenario" value="Portal" type="System.String" />
+      <Parameter name="CurrentTestCase" value="TC8" type="System.String" />
+      <Parameter name="TestCaseDescription" value="Create Custom ACH Process" type="System.String" />
+      <Parameter name="TimeStamp" value="Run_11-4-2015_11-50-37 AM" type="System.String" />
+      <Parameter name="IterationMode" value="oneIteration" type="System.String" />
+      <Parameter name="StartIteration" value="" type="" />
+      <Parameter name="EndIteration" value="" type="" />
+    </InputParameters>
+    <Extension>
+      <IconKey>8e934dc117594e56b31b95c8f2df1a6e</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>sravanthi</User>
+      <CpuInfo>Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3992</TotalMemory>
+      <HostName>CONVENENEW-PC</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>TC8</ResultName>
+    <RunStartTime>2015-11-04 11:51:03</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
